@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const internshipSchema = new mongoose.Schema({
+const InternshipSchema = new mongoose.Schema({
   company: {
     type: String,
     required: true
@@ -11,12 +11,8 @@ const internshipSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    default: "Applied"
-  },
-  appliedDate: {
-    type: Date,
-    default: Date.now
+    required: true
   }
 });
 
-module.exports = mongoose.model("Internship", internshipSchema);
+module.exports = mongoose.model("Internship", InternshipSchema);

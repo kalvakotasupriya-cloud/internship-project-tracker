@@ -1,8 +1,8 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-
 const internshipRoutes = require("./routes/internshiproutes"); 
+const projectRoutes = require("./routes/projectroutes");
 const app = express();
 
 app.use(cors());
@@ -19,6 +19,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/internships", internshipRoutes);
+app.use("/projects", projectRoutes);
 
 app.listen(5000, () => {
   console.log("Server started on port 5000");

@@ -4,7 +4,7 @@ const Internship = require("../models/Internship");
 
 router.get("/", async (req, res) => {
   try {
-    console.log("GET /internships called"); // 👈 ADD
+    console.log("GET /internships called"); 
     const internships = await Internship.find();
     res.json(internships);
   } catch (error) {
