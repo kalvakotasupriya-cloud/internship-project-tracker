@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Internship & Project Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Internship & Project Tracker</h1>
+
+  <section>
+    <h2>Add Internship</h2>
+    <input id="company" placeholder="Company" />
+    <input id="role" placeholder="Role" />
+    <button type="button" onclick="addInternship()">Add Internship</button>
+  </section>
+
+  <section>
+    <h2>Internships</h2>
+    <ul id="internshipList"></ul>
+  </section>
+
+  <hr />
+
+  <section>
+    <h2>Add Project</h2>
+    <input id="title" placeholder="Project Title" />
+    <input id="techStack" placeholder="Tech Stack" />
+    <button onclick="addProject()">Add Project</button>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul id="projectList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

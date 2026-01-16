@@ -1,0 +1,105 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Page background */
+body {
+  background-color: #f4f6f8;
+  padding: 40px;
+  color: #333;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Section containers */
+section {
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Section headings */
+section h2 {
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #3498db;
+  color: white;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+/* List items */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Delete button */
+li button {
+  background-color: #e74c3c;
+  font-size: 12px;
+  padding: 6px 10px;
+}
+
+li button:hover {
+  background-color: #c0392b;
+}
+
+/* Divider */
+hr {
+  margin: 40px auto;
+  max-width: 600px;
+  border: none;
+  border-top: 1px solid #ddd;
+}
